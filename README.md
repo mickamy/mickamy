@@ -1,13 +1,17 @@
 # Hi there 👋
 
-I'm **Tetsuro Mikami** (mickamy), a software engineer based in Tokyo, Japan. I build open-source tools focused on developer productivity, observability, and code quality in the Go ecosystem.
+I'm **Tetsuro Mikami** (mickamy), a software engineer based in Tokyo, Japan. I build open-source tools focused on
+developer productivity, observability, and code quality in the Go ecosystem.
 
 ## 🚀 Featured Projects
 
-### [sql-tap](https://github.com/mickamy/sql-tap) ⭐ 874
+### [sql-tap](https://github.com/mickamy/sql-tap)
+
 **Real-time SQL traffic viewer — proxy daemon + TUI client**
 
-`sql-tap` sits between your application and your database (PostgreSQL, MySQL, or TiDB), capturing every query and displaying it in an interactive terminal UI. Inspect queries, view transactions, and run EXPLAIN — all without changing your application code.
+`sql-tap` sits between your application and your database (PostgreSQL, MySQL, or TiDB), capturing every query and
+displaying it in an interactive terminal UI. Inspect queries, view transactions, and run EXPLAIN — all without changing
+your application code.
 
 - 📊 Real-time query monitoring with beautiful TUI
 - 🔍 Transaction tracking and inspection
@@ -15,7 +19,8 @@ I'm **Tetsuro Mikami** (mickamy), a software engineer based in Tokyo, Japan. I b
 - 🎯 Works with PostgreSQL, MySQL, and TiDB
 - 🐳 Docker-ready with native wire protocol support
 
-### [go-sqs-worker](https://github.com/mickamy/go-sqs-worker) ⭐ 15
+### [go-sqs-worker](https://github.com/mickamy/go-sqs-worker)
+
 **A Go library for managing asynchronous jobs using AWS SQS**
 
 A production-ready library that provides a simple, scalable way to produce and consume background jobs with AWS SQS.
@@ -26,10 +31,12 @@ A production-ready library that provides a simple, scalable way to produce and c
 - 🛡️ Configurable retry mechanism
 - 🌐 LocalStack compatible for local development
 
-### [goimportmaps](https://github.com/mickamy/goimportmaps) ⭐ 26
+### [goimportmaps](https://github.com/mickamy/goimportmaps)
+
 **Visualize and validate package dependencies in your Go project**
 
-A CLI tool that analyzes your Go project's internal package imports, visualizes them as a dependency graph, and detects architectural violations.
+A CLI tool that analyzes your Go project's internal package imports, visualizes them as a dependency graph, and detects
+architectural violations.
 
 - 📊 Visualize dependencies (Mermaid, Graphviz, HTML)
 - 🚨 Detect forbidden imports
@@ -37,7 +44,8 @@ A CLI tool that analyzes your Go project's internal package imports, visualizes 
 - 📈 Coupling metrics analysis (Ca, Ce, Instability)
 - ✅ Perfect for layered, hexagonal, or clean architecture
 
-### [gopanix](https://github.com/mickamy/gopanix) ⭐ 13
+### [gopanix](https://github.com/mickamy/gopanix)
+
 **💥 Visualize your Go panics in the browser**
 
 `gopanix` turns panic stack traces into readable HTML reports, making debugging Go crashes much more comfortable.
@@ -48,7 +56,8 @@ A CLI tool that analyzes your Go project's internal package imports, visualizes 
 - 📦 Library mode: use `defer gopanix.Handle()`
 - 🧘 Works without modifying your program
 
-### [contest](https://github.com/mickamy/contest) ⭐ 4
+### [contest](https://github.com/mickamy/contest)
+
 **Lightweight DSL for testing ConnectRPC handlers**
 
 A fluent, expressive testing framework for ConnectRPC that executes handlers directly using Go's `httptest` package.
@@ -59,7 +68,8 @@ A fluent, expressive testing framework for ConnectRPC that executes handlers dir
 - 🎯 Compatible with Connect interceptors
 - 📝 Clean, readable test code
 
-### [injector](https://github.com/mickamy/injector) ⭐ 1
+### [injector](https://github.com/mickamy/injector)
+
 **Type-safe dependency injection code generator for Go**
 
 A command-line tool that generates DI code using Go's type system and a minimal marker tag approach.
@@ -87,7 +97,6 @@ Every contribution, no matter the size, makes a difference and is deeply appreci
 ## 🔗 Connect
 
 - 🐙 GitHub: [@mickamy](https://github.com/mickamy)
-- 🏢 Organization: [@RxSwiftCommunity](https://github.com/RxSwiftCommunity)
 - 📍 Location: Tokyo, Japan
 
 ---
