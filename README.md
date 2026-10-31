@@ -19,6 +19,8 @@ Each tap is a proxy daemon that sits between your application and its backend, c
 
 ### go-kanna
 
+kanna is a family of seven code generators for what every Go service repeats. Each one reads what you have already written, from struct tags to your schema, and writes the plain Go you would otherwise write by hand: no reflection, nothing hidden from review. Each is a module of its own, so use one, or all seven together.
+
 https://go-kanna.github.io/kanna/
 
 | Tool | What it writes |
