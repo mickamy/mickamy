@@ -19,7 +19,7 @@ Each tap is a proxy daemon that sits between your application and its backend, c
 
 ### go-kanna
 
-**[Site](https://go-kanna.github.io/kanna/)**
+https://go-kanna.github.io/kanna/
 
 | Tool | What it writes |
 |---|---|
